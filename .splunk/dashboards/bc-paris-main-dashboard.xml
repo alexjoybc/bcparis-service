@@ -102,7 +102,7 @@ dc(properties.traceId) AS distinctSpans BY severity</query>
         <option name="drilldown">row</option>
         <option name="refresh.display">progressbar</option>
         <drilldown>
-          <link target="_blank">https://zipkin-xqb2qz-prod.pathfinder.bcgov/zipkin/traces/$row.OpenTrace Id$</link>
+          <link target="_blank">https://zipkin/zipkin/traces/$row.OpenTrace Id$</link>
         </drilldown>
       </table>
     </panel>
